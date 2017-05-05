@@ -16,6 +16,11 @@
 		04AFC28B1EB2E181003FE204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AFC2891EB2E181003FE204 /* LaunchScreen.storyboard */; };
 		04AFC2961EB2E181003FE204 /* DataBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC2951EB2E181003FE204 /* DataBaseTests.m */; };
 		04AFC2A11EB2E182003FE204 /* DataBaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC2A01EB2E182003FE204 /* DataBaseUITests.m */; };
+		04AFC2C41EB2E512003FE204 /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC2C11EB2E512003FE204 /* Person+CoreDataProperties.m */; };
+		04AFC2C51EB2E512003FE204 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC2C31EB2E512003FE204 /* Person.m */; };
+		04AFC2CA1EB2E7D5003FE204 /* Student+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC2C71EB2E7D5003FE204 /* Student+CoreDataProperties.m */; };
+		04AFC2CB1EB2E7D5003FE204 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC2C91EB2E7D5003FE204 /* Student.m */; };
+		04AFC2CD1EBC1F94003FE204 /* Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AFC2CC1EBC1F94003FE204 /* Storyboard_iPad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,15 @@
 		04AFC29C1EB2E182003FE204 /* DataBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AFC2A01EB2E182003FE204 /* DataBaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataBaseUITests.m; sourceTree = "<group>"; };
 		04AFC2A21EB2E182003FE204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AFC2C01EB2E512003FE204 /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		04AFC2C11EB2E512003FE204 /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		04AFC2C21EB2E512003FE204 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		04AFC2C31EB2E512003FE204 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		04AFC2C61EB2E7D5003FE204 /* Student+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataProperties.h"; sourceTree = "<group>"; };
+		04AFC2C71EB2E7D5003FE204 /* Student+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataProperties.m"; sourceTree = "<group>"; };
+		04AFC2C81EB2E7D5003FE204 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		04AFC2C91EB2E7D5003FE204 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		04AFC2CC1EBC1F94003FE204 /* Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +122,19 @@
 				04AFC27E1EB2E181003FE204 /* ViewController.h */,
 				04AFC27F1EB2E181003FE204 /* ViewController.m */,
 				04AFC2811EB2E181003FE204 /* Main.storyboard */,
+				04AFC2CC1EBC1F94003FE204 /* Storyboard_iPad.storyboard */,
 				04AFC2871EB2E181003FE204 /* Assets.xcassets */,
 				04AFC2891EB2E181003FE204 /* LaunchScreen.storyboard */,
 				04AFC28C1EB2E181003FE204 /* Info.plist */,
 				04AFC2841EB2E181003FE204 /* DataBase.xcdatamodeld */,
+				04AFC2C01EB2E512003FE204 /* Person+CoreDataProperties.h */,
+				04AFC2C11EB2E512003FE204 /* Person+CoreDataProperties.m */,
+				04AFC2C21EB2E512003FE204 /* Person.h */,
+				04AFC2C31EB2E512003FE204 /* Person.m */,
+				04AFC2C61EB2E7D5003FE204 /* Student+CoreDataProperties.h */,
+				04AFC2C71EB2E7D5003FE204 /* Student+CoreDataProperties.m */,
+				04AFC2C81EB2E7D5003FE204 /* Student.h */,
+				04AFC2C91EB2E7D5003FE204 /* Student.m */,
 				04AFC2781EB2E181003FE204 /* Supporting Files */,
 			);
 			path = DataBase;
@@ -249,6 +272,7 @@
 				04AFC28B1EB2E181003FE204 /* LaunchScreen.storyboard in Resources */,
 				04AFC2881EB2E181003FE204 /* Assets.xcassets in Resources */,
 				04AFC2831EB2E181003FE204 /* Main.storyboard in Resources */,
+				04AFC2CD1EBC1F94003FE204 /* Storyboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AFC2C51EB2E512003FE204 /* Person.m in Sources */,
 				04AFC2801EB2E181003FE204 /* ViewController.m in Sources */,
 				04AFC27D1EB2E181003FE204 /* AppDelegate.m in Sources */,
+				04AFC2CB1EB2E7D5003FE204 /* Student.m in Sources */,
 				04AFC2861EB2E181003FE204 /* DataBase.xcdatamodeld in Sources */,
+				04AFC2C41EB2E512003FE204 /* Person+CoreDataProperties.m in Sources */,
+				04AFC2CA1EB2E7D5003FE204 /* Student+CoreDataProperties.m in Sources */,
 				04AFC27A1EB2E181003FE204 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +530,7 @@
 				04AFC2A71EB2E182003FE204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04AFC2A81EB2E182003FE204 /* Build configuration list for PBXNativeTarget "DataBaseTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +539,7 @@
 				04AFC2AA1EB2E182003FE204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04AFC2AB1EB2E182003FE204 /* Build configuration list for PBXNativeTarget "DataBaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +548,7 @@
 				04AFC2AD1EB2E182003FE204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
